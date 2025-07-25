@@ -199,5 +199,30 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <33 37>;
         };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <43 44>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <44 45>;
+        };
+
+        newpage {
+            bindings = <&kp LG(T)>;
+            key-positions = <43 46>;
+        };
+
+        closepage {
+            bindings = <&kp LG(W)>;
+            key-positions = <43 47>;
+        };
+
+        refresh {
+            bindings = <&kp LG(R)>;
+            key-positions = <43 45 47>;
+        };
     };
 };
