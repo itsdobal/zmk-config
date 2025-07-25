@@ -172,5 +172,10 @@
             key-positions = <61 62>;
             bindings = <&mo 2>;
         };
+
+        gaminglayer {
+            bindings = <&tog 4>;
+            key-positions = <15 28>;
+        };
     };
 };
