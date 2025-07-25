@@ -194,5 +194,10 @@
             bindings = <&kp K_MUTE>;
             key-positions = <26 25>;
         };
+
+        caps-lock-combo {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <33 37>;
+        };
     };
 };
