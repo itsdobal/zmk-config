@@ -22,6 +22,50 @@
         };
     };
 
+    macros {
+        macro0: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp C &kp V &kp UNDER &kp LS(Z) &kp N9 &kp N9 &kp LS(W) &kp B &kp STAR &kp LS(H) &kp UNDER &kp W &kp N3 &kp LS(F) &kp X &kp EXCL &kp AT &kp LS(Q) &kp DOT &kp LS(M)>;
+            label = "NEW_MACRO";
+        };
+
+        macro1: macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp N1 &kp S &kp S &kp LS(L) &kp N3 &kp M &kp N0 &kp LS(N) &kp S &kp EXCL &kp MINUS &kp LS(H) &kp LS(O) &kp LS(M) &kp LS(E) &kp MINUS &kp LS(S) &kp LS(T) &kp LS(A) &kp LS(R)>;
+            label = "MACRO1";
+        };
+
+        macro2: macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp J &kp I &kp LS(F) &kp N &kp O &kp V &kp W &kp Y &kp V &kp Z &kp O &kp N0 &kp F &kp O &kp V &kp V &kp E &kp F>;
+            label = "MACRO2";
+        };
+
+        macro3: macro3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp A &kp X &kp K &kp A &kp R &kp W &kp I &kp P &kp Q &kp A &kp P &kp N0 &kp G &kp Y &kp LS(G) &kp X &kp I>;
+            label = "MACRO3";
+        };
+
+        macro4: macro4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp F &kp U &kp LS(D) &kp N &kp LS(E) &kp Z &kp T &kp A &kp N2 &kp LS(D) &kp LS(U) &kp D &kp P &kp LS(C) &kp LS(V) &kp T &kp DOT &kp N6 &kp LS(V) &kp H>;
+            label = "MACRO4";
+        };
+
+        macro5: macro5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(T) &kp U &kp Q &kp R &kp A &kp N9 &kp MINUS &kp J &kp Y &kp N &kp N &kp U &kp H &kp MINUS &kp N &kp O &kp N &kp Q &kp O &kp H>;
+            label = "MACRO5";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
