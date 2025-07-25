@@ -191,7 +191,7 @@
         };
 
         mediakeys {
-            bindings = <&kp K_MUTE>;
+            bindings = <&mediakeys>;
             key-positions = <26 25>;
         };
 
