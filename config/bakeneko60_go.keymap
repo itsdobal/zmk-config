@@ -20,13 +20,6 @@
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp SEMI>;
         };
-
-        mediakeys: mediakeys {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MEDIAKEYS";
-            #binding-cells = <0>;
-            bindings = <&kp K_MUTE>, <&kp C_NEXT>, <&kp C_PREVIOUS>;
-        };
     };
 
     macros {
